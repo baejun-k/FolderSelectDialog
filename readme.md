@@ -1,6 +1,6 @@
-# FolderSectDialog
+# FolderSelectDialog
 
+폴더를 선택하는 대화창으로 기존에 FolderBrowserDialog가 있으나 
+FolderSelectDialog는 OpenFileDialog과 디자인, 사용법이 같은 대화창이다.
 
-System.Windows.Forms 배이스로 폴더를 선택할 수 있는 대화상자.
-FolderBrowserDialog와 달리 OpenFileDialog와 디자인이 같으며,
-multiselect 기능이 있는 FolderSelectDialog class이다.
+System.Windows.Forms을 상속하고 있다. _WPF에서는 Forms를 참초 추가하여 사용_
