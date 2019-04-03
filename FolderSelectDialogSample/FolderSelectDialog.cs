@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace FolderSelectDialogSample {
+namespace Jun.UI {
     public class FolderSelectDialog {
         System.Windows.Forms.OpenFileDialog ofd = null;
 

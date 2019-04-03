@@ -10,7 +10,7 @@ namespace FolderSelectDialogSample {
         }
 
         private void ButtonClick(object sender, RoutedEventArgs e) {
-            FolderSelectDialog fsd = new FolderSelectDialog();
+			Jun.UI.FolderSelectDialog fsd = new Jun.UI.FolderSelectDialog();
             fsd.Multiselect = true;
             if (fsd.ShowDialog()) {
                 string[] dirs = fsd.FileNames;
